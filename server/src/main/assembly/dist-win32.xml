@@ -28,12 +28,5 @@
             <directory>../office-plugin/windows-office</directory>
             <outputDirectory>${file.separator}windows-office</outputDirectory>
         </fileSet>
-        <fileSet>
-            <directory>${project.build.directory}</directory>
-            <outputDirectory>${file.separator}bin</outputDirectory>
-            <includes>
-                <include>*.jar</include>
-            </includes>
-        </fileSet>
     </fileSets>
 </assembly>

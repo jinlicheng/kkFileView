@@ -28,12 +28,5 @@
             <outputDirectory>${file.separator}log</outputDirectory>
             <lineEnding>unix</lineEnding>
         </fileSet>
-        <fileSet>
-            <directory>${project.build.directory}</directory>
-            <outputDirectory>${file.separator}bin</outputDirectory>
-            <includes>
-                <include>*.jar</include>
-            </includes>
-        </fileSet>
     </fileSets>
 </assembly>
